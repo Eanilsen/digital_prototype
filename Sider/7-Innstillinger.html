@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Innstillinger</title>
+
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css" />
+<script type="text/javascript" src="../JavaScript/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../JavaScript/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../JavaScript/UIATimeplanJS.js"></script>
+</head>
+<body>
+<div id="appFrame">
+    <div id="header">
+        <div id="menuButton"><a href="4-SwipeMeny.html" class="box-shadow-menu"></a></div>
+        <div class="headerText">Innstillinger</div>
+    </div>
+    <form>
+        <div id="innstillingerInput">
+            <p style="font-size:20px;">Min Bruker</p>
+            <input type="text" name="Username" placeholder="Email"></input>
+            <p></p>
+            <input type="password" name="gpass" placeholder="Gammelt Passord"></input>
+            <input type="password" name="npass" placeholder="Nytt Passord"></input>
+            <p style="font-size:20px;">Språk</p>
+            <select class="innstillingerSelect">
+                <option value="norsk">Norsk</option>
+                <option value="engelsk">English</option>
+            </select>
+        </div>
+    </form>
+    <form method="get" action="1-Hjem.html" class="lagre"><button type="submit" class="lagre">Lagre</button></form>
+</div>
+</body>
+
